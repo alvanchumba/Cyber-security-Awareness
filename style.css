@@ -1,0 +1,72 @@
+
+:root {
+  --main-bg: #0b1727;
+  --main-color: #ffffff;
+  --accent-color: #25aae1;
+  --light-bg: #f9f9f9;
+  --dark-bg: #0b1727;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-bg);
+  color: var(--main-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+  background-color: var(--accent-color);
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background: #1b1f2a;
+}
+
+nav button {
+  padding: 0.5rem;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.language-switch {
+  margin-top: 1rem;
+}
+
+label, input, select, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+}
+
+form button {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
+.light-theme {
+  background-color: var(--light-bg);
+  color: #000;
+}
